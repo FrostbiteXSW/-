@@ -7,10 +7,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b65b7af5-a045-4806-bcfc-142ddc64106e" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/web/default.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/_war_exploded/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/_war_exploded/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/index.jsp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -55,8 +53,8 @@
       <file leaf-file-name="index.jsp" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/web/index.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
-              <caret line="22" column="27" selection-start-line="22" selection-start-column="27" selection-end-line="22" selection-end-column="27" />
+            <state relative-caret-position="437">
+              <caret line="23" column="13" lean-forward="true" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
               <folding>
                 <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#table#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -353,7 +351,7 @@
       <workItem from="1526122588989" duration="375000" />
       <workItem from="1526122997492" duration="203000" />
       <workItem from="1526123208653" duration="284000" />
-      <workItem from="1526123515479" duration="2535000" />
+      <workItem from="1526123515479" duration="2627000" />
     </task>
     <task id="LOCAL-00001" summary="原始内容">
       <created>1526122042009</created>
@@ -362,11 +360,18 @@
       <option name="project" value="LOCAL" />
       <updated>1526122042009</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="更新登陆界面">
+      <created>1526126141972</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1526126141973</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6210000" />
+    <option name="totallyTimeSpent" value="6302000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -391,7 +396,7 @@
       <window_info anchor="bottom" id="Java Enterprise" order="13" />
       <window_info anchor="right" id="Capture Analysis" order="1" />
       <window_info anchor="bottom" id="Version Control" order="0" weight="0.32897604" />
-      <window_info active="true" anchor="bottom" id="Run" order="7" sideWeight="0.49946696" visible="true" weight="0.32897604" />
+      <window_info anchor="bottom" id="Run" order="7" sideWeight="0.49946696" weight="0.32897604" />
       <window_info anchor="bottom" id="Terminal" order="4" />
       <window_info id="Persistence" order="7" sideWeight="0.5032467" side_tool="true" weight="0.17217484" />
       <window_info content_ui="combo" id="Project" order="5" sideWeight="0.49675325" visible="true" weight="0.141258" />
@@ -448,7 +453,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="原始内容" />
-    <option name="LAST_COMMIT_MESSAGE" value="原始内容" />
+    <MESSAGE value="更新登陆界面" />
+    <option name="LAST_COMMIT_MESSAGE" value="更新登陆界面" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -627,8 +633,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/web/index.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="22" column="27" selection-start-line="22" selection-start-column="27" selection-end-line="22" selection-end-column="27" />
+        <state relative-caret-position="437">
+          <caret line="23" column="13" lean-forward="true" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
           <folding>
             <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#table#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
