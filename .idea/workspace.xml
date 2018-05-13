@@ -7,12 +7,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b65b7af5-a045-4806-bcfc-142ddc64106e" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/web/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/_war_exploded/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/_war_exploded/WEB-INF/web.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/_war_exploded/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/_war_exploded/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/index.jsp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -364,7 +361,7 @@
       <workItem from="1526122997492" duration="203000" />
       <workItem from="1526123208653" duration="284000" />
       <workItem from="1526123515479" duration="2627000" />
-      <workItem from="1526221829992" duration="2093000" />
+      <workItem from="1526221829992" duration="2139000" />
     </task>
     <task id="LOCAL-00001" summary="原始内容">
       <created>1526122042009</created>
@@ -380,11 +377,18 @@
       <option name="project" value="LOCAL" />
       <updated>1526126141973</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="更新登陆界面类型为html">
+      <created>1526224380842</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1526224380842</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8395000" />
+    <option name="totallyTimeSpent" value="8441000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -409,7 +413,7 @@
       <window_info anchor="bottom" id="Java Enterprise" order="13" />
       <window_info anchor="right" id="Capture Analysis" order="1" />
       <window_info anchor="bottom" id="Version Control" order="0" weight="0.32897604" />
-      <window_info active="true" anchor="bottom" id="Run" order="7" sideWeight="0.49946696" visible="true" weight="0.32897604" />
+      <window_info anchor="bottom" id="Run" order="7" sideWeight="0.49946696" weight="0.32897604" />
       <window_info anchor="bottom" id="Terminal" order="4" />
       <window_info id="Persistence" order="7" sideWeight="0.5032467" side_tool="true" weight="0.17217484" />
       <window_info content_ui="combo" id="Project" order="5" sideWeight="0.49675325" visible="true" weight="0.14285715" />
@@ -467,7 +471,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="原始内容" />
     <MESSAGE value="更新登陆界面" />
-    <option name="LAST_COMMIT_MESSAGE" value="更新登陆界面" />
+    <MESSAGE value="更新登陆界面类型为html" />
+    <option name="LAST_COMMIT_MESSAGE" value="更新登陆界面类型为html" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
