@@ -1,5 +1,6 @@
 <%@ page contentType="text/html;charset=UTF-8" %>
-<html><head>
+<html>
+<head>
     <script language="JavaScript">
         <!--
         function getPwdFocus() {
@@ -43,6 +44,5 @@
         </tbody></table>
     </p>
 </form>
-
-
-</body></html>
+</body>
+</html>
