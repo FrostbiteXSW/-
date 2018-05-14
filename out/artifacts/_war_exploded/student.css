@@ -1,0 +1,24 @@
+.TitleStyle {
+    text-align: center;
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 200%;
+}
+.MainDiv {
+    min-width: 600px;
+    min-height: 600px;
+    border: 2px solid #7B9EBE;
+}
+.LeftDiv {
+    float: left;
+    width: 40%;
+    background-color: #a9c4d6;
+}
+.SplitLine {
+    margin-left: 41%;
+    border-left: 1px solid black;
+}
+.RightDiv {
+    background-color: white;
+    margin-left: 42%;
+}
