@@ -7,8 +7,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b65b7af5-a045-4806-bcfc-142ddc64106e" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/web/teacherInputScore.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/teacherOpenCourse.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -78,20 +76,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="teacherOpenCourse.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="teacherOpenCourse.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/teacherOpenCourse.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="321">
-              <caret line="48" column="82" selection-start-line="48" selection-start-column="82" selection-end-line="48" selection-end-column="82" />
+            <state relative-caret-position="-2">
+              <caret line="28" column="96" lean-forward="true" selection-start-line="28" selection-start-column="96" selection-end-line="28" selection-end-column="96" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="page.css" pinned="false" current-in-tab="false">
+      <file leaf-file-name="page.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/web/page.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="245">
-              <caret line="45" column="30" selection-start-line="45" selection-start-column="30" selection-end-line="45" selection-end-column="30" />
+            <state relative-caret-position="264">
+              <caret line="46" column="1" lean-forward="true" selection-start-line="46" selection-start-column="1" selection-end-line="46" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -201,17 +199,6 @@
             <path>
               <item name="School-Database-Management-System" type="b2602c69:ProjectViewProjectNode" />
               <item name="School-Database-Management-System" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="School-Database-Management-System" type="b2602c69:ProjectViewProjectNode" />
-              <item name="School-Database-Management-System" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="School-Database-Management-System" type="b2602c69:ProjectViewProjectNode" />
-              <item name="School-Database-Management-System" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="School" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="School-Database-Management-System" type="b2602c69:ProjectViewProjectNode" />
@@ -398,7 +385,7 @@
       <workItem from="1526221829992" duration="2139000" />
       <workItem from="1526303543455" duration="1653000" />
       <workItem from="1526363252048" duration="661000" />
-      <workItem from="1526376201724" duration="1909000" />
+      <workItem from="1526376201724" duration="1960000" />
     </task>
     <task id="LOCAL-00001" summary="原始内容">
       <created>1526122042009</created>
@@ -435,11 +422,18 @@
       <option name="project" value="LOCAL" />
       <updated>1526377409072</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="更新教师管理界面">
+      <created>1526378182904</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1526378182904</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12664000" />
+    <option name="totallyTimeSpent" value="12715000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
@@ -493,7 +487,8 @@
     <MESSAGE value="更新学生管理的所有页面模板" />
     <MESSAGE value="合并更新" />
     <MESSAGE value="更新系统管理员管理界面" />
-    <option name="LAST_COMMIT_MESSAGE" value="更新系统管理员管理界面" />
+    <MESSAGE value="更新教师管理界面" />
+    <option name="LAST_COMMIT_MESSAGE" value="更新教师管理界面" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -714,13 +709,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/page.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="245">
-          <caret line="45" column="30" selection-start-line="45" selection-start-column="30" selection-end-line="45" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/studentSelectCourse.html">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -758,8 +746,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/web/teacherOpenCourse.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="321">
-          <caret line="48" column="82" selection-start-line="48" selection-start-column="82" selection-end-line="48" selection-end-column="82" />
+        <state relative-caret-position="-2">
+          <caret line="28" column="96" lean-forward="true" selection-start-line="28" selection-start-column="96" selection-end-line="28" selection-end-column="96" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/page.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="46" column="1" lean-forward="true" selection-start-line="46" selection-start-column="1" selection-end-line="46" selection-end-column="1" />
         </state>
       </provider>
     </entry>
