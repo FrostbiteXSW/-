@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>学生管理</title>
-    <link href="student.css" rel="stylesheet" type="text/css">
+    <link href="page.css" rel="stylesheet" type="text/css">
     <script language="JavaScript">
         function CourseInfo() {
             window.location.href="studentCourseInfo.html";
@@ -13,6 +13,9 @@
         }
         function quitCourse() {
             window.location.href="studentQuitCourse.html";
+        }
+        function exitSystem() {
+            window.location.href="index.html";
         }
     </script>
 </head>
@@ -31,6 +34,9 @@
                     <tr>
                         <td><button class="LeftContent" onclick="quitCourse()">&nbsp;退课</button></td>
                     </tr>
+                    <tr>
+                        <td><button class="LeftContent" onclick="exitSystem()">&nbsp;退出登录</button></td>
+                    </tr>
                 </tbody>
             </table>
         </div>
@@ -43,21 +49,18 @@
                         <td class="InnerTitle">课号</td>
                         <td class="InnerTitle">课名</td>
                         <td class="InnerTitle">上课时间</td>
-                        <td class="InnerTitle">上课地点</td>
                         <td class="InnerTitle">任课教师</td>
                     </tr>
                     <tr>
                         <td class="InnerBlock">08305001</td>
                         <td class="InnerBlock">HTML入门</td>
                         <td class="InnerBlock">三11-13</td>
-                        <td class="InnerBlock">计324</td>
                         <td class="InnerBlock">王重阳</td>
                     </tr>
                     <tr>
                         <td class="InnerBlock">08305002</td>
                         <td class="InnerBlock">JSP精通</td>
                         <td class="InnerBlock">五11-13</td>
-                        <td class="InnerBlock">计424</td>
                         <td class="InnerBlock">郭敬明</td>
                     </tr>
                 </tbody>
