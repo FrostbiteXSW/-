@@ -6,21 +6,10 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b65b7af5-a045-4806-bcfc-142ddc64106e" name="Default" comment="合并更新">
-      <change afterPath="$PROJECT_DIR$/web/systemManage.html" afterDir="false" />
+    <list default="true" id="b65b7af5-a045-4806-bcfc-142ddc64106e" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/web/teacherInputScore.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/teacherOpenCourse.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/教学事务管理系统/com/db/School/CEntity.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/教学事务管理系统/com/db/School/DEntity.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/教学事务管理系统/com/db/School/EEntity.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/教学事务管理系统/com/db/School/EEntityPK.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/教学事务管理系统/com/db/School/OEntity.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/教学事务管理系统/com/db/School/OEntityPK.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/教学事务管理系统/com/db/School/SEntity.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/教学事务管理系统/com/db/School/TEntity.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/student.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/page.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/studentCourseInfo.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/studentCourseInfo.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/studentQuitCourse.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/studentQuitCourse.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/studentSelectCourse.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/studentSelectCourse.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -62,23 +51,38 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="studentSelectCourse.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/studentSelectCourse.html">
+      <file leaf-file-name="systemManage.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/systemManage.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret line="41" column="10" lean-forward="true" selection-start-line="41" selection-start-column="10" selection-end-line="41" selection-end-column="10" />
+            <state relative-caret-position="323">
+              <caret line="50" column="20" lean-forward="true" selection-start-line="50" selection-start-column="20" selection-end-line="51" selection-end-column="95" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="systemManage.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/web/systemManage.html">
+      <file leaf-file-name="studentQuitCourse.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/studentQuitCourse.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="114">
-              <caret line="39" column="23" lean-forward="true" selection-start-line="39" selection-start-column="23" selection-end-line="39" selection-end-column="23" />
-              <folding>
-                <element signature="n#style#0;n#table#0;n#form#1;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
+            <state relative-caret-position="285">
+              <caret line="15" column="9" lean-forward="true" selection-start-line="15" selection-start-column="9" selection-end-line="18" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="teacherInputScore.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/teacherInputScore.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="38" column="49" selection-start-line="38" selection-start-column="49" selection-end-line="38" selection-end-column="49" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="teacherOpenCourse.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/web/teacherOpenCourse.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="321">
+              <caret line="48" column="82" selection-start-line="48" selection-start-column="82" selection-end-line="48" selection-end-column="82" />
             </state>
           </provider>
         </entry>
@@ -130,6 +134,8 @@
         <option value="$PROJECT_DIR$/web/studentSelectCourse.html" />
         <option value="$PROJECT_DIR$/web/page.css" />
         <option value="$PROJECT_DIR$/web/systemManage.html" />
+        <option value="$PROJECT_DIR$/web/teacherInputScore.html" />
+        <option value="$PROJECT_DIR$/web/teacherOpenCourse.html" />
       </list>
     </option>
   </component>
@@ -200,6 +206,12 @@
               <item name="School-Database-Management-System" type="b2602c69:ProjectViewProjectNode" />
               <item name="School-Database-Management-System" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="School-Database-Management-System" type="b2602c69:ProjectViewProjectNode" />
+              <item name="School-Database-Management-System" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="School" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="School-Database-Management-System" type="b2602c69:ProjectViewProjectNode" />
@@ -386,7 +398,7 @@
       <workItem from="1526221829992" duration="2139000" />
       <workItem from="1526303543455" duration="1653000" />
       <workItem from="1526363252048" duration="661000" />
-      <workItem from="1526376201724" duration="1042000" />
+      <workItem from="1526376201724" duration="1909000" />
     </task>
     <task id="LOCAL-00001" summary="原始内容">
       <created>1526122042009</created>
@@ -416,11 +428,18 @@
       <option name="project" value="LOCAL" />
       <updated>1526307246440</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="更新系统管理员管理界面">
+      <created>1526377409072</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1526377409072</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11797000" />
+    <option name="totallyTimeSpent" value="12664000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
@@ -434,7 +453,7 @@
       <window_info id="Capture Tool" order="3" />
       <window_info id="Designer" order="0" />
       <window_info anchor="right" id="Database" order="3" weight="0.22547974" />
-      <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
+      <window_info id="Structure" order="6" sideWeight="0.50268334" side_tool="true" weight="0.20242915" />
       <window_info anchor="right" id="Ant Build" order="7" weight="0.25" />
       <window_info id="UI Designer" order="2" />
       <window_info anchor="bottom" id="Debug" order="8" weight="0.4" />
@@ -446,9 +465,9 @@
       <window_info anchor="bottom" id="Version Control" order="0" weight="0.32897604" />
       <window_info anchor="bottom" id="Run" order="7" sideWeight="0.49946696" weight="0.32897604" />
       <window_info anchor="bottom" id="Terminal" order="4" />
-      <window_info id="Persistence" order="7" sideWeight="0.5032467" side_tool="true" weight="0.17217484" />
-      <window_info active="true" content_ui="combo" id="Project" order="5" sideWeight="0.49675325" visible="true" weight="0.20242915" />
-      <window_info id="Web" order="8" side_tool="true" />
+      <window_info id="Persistence" order="7" sideWeight="0.50268334" side_tool="true" weight="0.20242915" />
+      <window_info active="true" content_ui="combo" id="Project" order="5" sideWeight="0.49731663" visible="true" weight="0.20242915" />
+      <window_info id="Web" order="8" sideWeight="0.50268334" side_tool="true" weight="0.20242915" />
       <window_info anchor="right" id="Theme Preview" order="2" />
       <window_info id="Favorites" order="4" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="12" sideWeight="0.49946696" weight="0.32897604" />
@@ -473,7 +492,8 @@
     <MESSAGE value="更新登陆界面类型为html" />
     <MESSAGE value="更新学生管理的所有页面模板" />
     <MESSAGE value="合并更新" />
-    <option name="LAST_COMMIT_MESSAGE" value="合并更新" />
+    <MESSAGE value="更新系统管理员管理界面" />
+    <option name="LAST_COMMIT_MESSAGE" value="更新系统管理员管理界面" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -496,9 +516,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="608">
           <caret line="32" column="41" lean-forward="true" selection-start-line="32" selection-start-column="41" selection-end-line="32" selection-end-column="41" />
-          <folding>
-            <element signature="n#style#0;n#table#0;n#form#1;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -690,20 +707,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/db/School/OEntity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="6" column="45" selection-start-line="6" selection-start-column="38" selection-end-line="6" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/studentQuitCourse.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="65" column="62" selection-start-line="65" selection-start-column="62" selection-end-line="65" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/studentCourseInfo.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="380">
@@ -727,11 +730,36 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/web/systemManage.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="39" column="23" lean-forward="true" selection-start-line="39" selection-start-column="23" selection-end-line="39" selection-end-column="23" />
-          <folding>
-            <element signature="n#style#0;n#table#0;n#form#1;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
+        <state relative-caret-position="323">
+          <caret line="50" column="20" lean-forward="true" selection-start-line="50" selection-start-column="20" selection-end-line="51" selection-end-column="95" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/studentQuitCourse.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" column="9" lean-forward="true" selection-start-line="15" selection-start-column="9" selection-end-line="18" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/db/School/OEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="6" column="45" selection-start-line="6" selection-start-column="38" selection-end-line="6" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/teacherInputScore.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="38" column="49" selection-start-line="38" selection-start-column="49" selection-end-line="38" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/teacherOpenCourse.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="321">
+          <caret line="48" column="82" selection-start-line="48" selection-start-column="82" selection-end-line="48" selection-end-column="82" />
         </state>
       </provider>
     </entry>
