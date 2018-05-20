@@ -20,5 +20,9 @@
             <result name="success">/systemManage.jsp?from=success</result>
             <result name="failed">/systemManage.jsp?from=failed</result>
         </action>
+        <action name="handleInputScore" class="InputScore">
+            <result name="success">/teacherInputScore.jsp?from=success</result>
+            <result name="failed">/teacherInputScore.jsp?from=failed</result>
+        </action>
     </package>
 </struts>
