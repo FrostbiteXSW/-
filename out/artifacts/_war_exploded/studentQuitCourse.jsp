@@ -54,7 +54,7 @@
                             Query query = s.createQuery("select E.kh, C.km, O.sksj, T.xm, E.xq, C.xf from EEntity as E, OEntity as O, CEntity as C, TEntity as T " +
                                     "where T.gh = E.gh and O.kh = E.kh " +
                                     "and O.gh = E.gh and O.xq = E.xq " +
-                                    "and C.kh = E.kh and not isnull(E.zpcj) " +
+                                    "and C.kh = E.kh and E.zpcj is not null " +
                                     "and E.xh = '" + username +"' " +
                                     "order by E.kh");
                             List list = query.list();

@@ -12,6 +12,7 @@ public class SEntity {
     private String csrq;
     private String jg;
     private String sjhm;
+    private String yxh;
 
     @Id
     @Column(name = "xh", nullable = false, length = 4)
@@ -71,6 +72,16 @@ public class SEntity {
 
     public void setSjhm(String sjhm) {
         this.sjhm = sjhm;
+    }
+
+    @Basic
+    @Column(name = "yxh", nullable = false)
+    public String getYxh() {
+        return yxh;
+    }
+
+    public void setYxh(String yxh) {
+        this.yxh = yxh;
     }
 
     @Override

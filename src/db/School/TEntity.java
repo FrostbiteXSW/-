@@ -13,6 +13,7 @@ public class TEntity {
     private String csrq;
     private String xl;
     private BigDecimal jbgz;
+    private String yxh;
 
     @Id
     @Column(name = "gh", nullable = false, length = 4)
@@ -72,6 +73,16 @@ public class TEntity {
 
     public void setJbgz(BigDecimal jbgz) {
         this.jbgz = jbgz;
+    }
+
+    @Basic
+    @Column(name = "yxh", nullable = false)
+    public String getYxh() {
+        return yxh;
+    }
+
+    public void setYxh(String yxh) {
+        this.yxh = yxh;
     }
 
     @Override

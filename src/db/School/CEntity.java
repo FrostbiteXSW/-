@@ -10,6 +10,7 @@ public class CEntity {
     private String km;
     private int xf;
     private int xs;
+    private String yxh;
 
     @Id
     @Column(name = "kh", nullable = false, length = 8)
@@ -49,6 +50,16 @@ public class CEntity {
 
     public void setXs(int xs) {
         this.xs = xs;
+    }
+
+    @Basic
+    @Column(name = "yxh", nullable = false)
+    public String getYxh() {
+        return yxh;
+    }
+
+    public void setYxh(String yxh) {
+        this.yxh = yxh;
     }
 
     @Override

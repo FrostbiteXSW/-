@@ -53,4 +53,8 @@ public class QuitCourse extends ActionSupport {
     public void setKh(String[] kh) {
         this.kh = kh;
     }
+
+    public String[] getKh() {
+        return kh;
+    }
 }
