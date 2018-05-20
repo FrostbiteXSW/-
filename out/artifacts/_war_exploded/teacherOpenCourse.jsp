@@ -27,21 +27,31 @@
     <div class="SplitLine"></div>
     <div class="RightDiv">
         <br><span class="RightSubtitleStyle">开设课程</span><br><br>
-        <form method="post" action=""> <!-- TODO:设置处理教师开设课程跳转界面 -->
+        <form method="post" action="handleOpenCourse.action"> <!-- TODO:设置处理教师开设课程跳转界面 -->
             <table id="MainTable" class="MainTable" align="center" cellpadding="5">
                 <tbody>
                 <tr>
                     <td class="InnerTitle">课号</td>
                     <td class="InnerTitle">上课时间</td>
+                    <td class="InnerTitle">学期</td>
                 </tr>
                 <tr>
-                    <td class="InnerBlock"><input type="text" name="kh1" value=""></td>
-                    <td class="InnerBlock"><input type="text" name="sksj1" value=""></td>
+                    <td class='InnerBlock'><input type='text' name='kh' value=''></td>
+                    <td class='InnerBlock'><input type='text' name='sksj' value=''></td>
+                    <td class='InnerBlock'><input type='text' name='xq' value=''></td>
                 </tr>
                 </tbody>
             </table>
+            <input type="hidden" name="gh" value="<%=session.getAttribute("username")%>"/>
             <input type="submit" value="确认"/>
             <input type="reset" value="重置"/>
+            <%
+                String name = request.getParameter("from");
+                if (name != null && name.equals("failed"))
+                    out.print("<br><br><div style='text-align: center; font-weight: bolder'>开课失败！</div>");
+                if (name != null && name.equals("success"))
+                    out.print("<br><br><div style='text-align: center; font-weight: bolder'>开课成功！</div>");
+            %>
         </form>
     </div>
 </div>

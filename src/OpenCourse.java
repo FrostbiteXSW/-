@@ -1,14 +1,14 @@
 import com.opensymphony.xwork2.ActionSupport;
-import db.School.EEntity;
+import db.School.OEntity;
 import org.hibernate.HibernateException;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.hibernate.Transaction;
 import org.hibernate.cfg.Configuration;
 
-public class SelectCourse extends ActionSupport {
+public class OpenCourse extends ActionSupport {
     private static final SessionFactory ourSessionFactory;
-    private String kh;
+    private String kh, sksj, xq, gh;
 
     static {
         try {
@@ -29,18 +29,12 @@ public class SelectCourse extends ActionSupport {
         try {
             Session session = getSession();
             Transaction transaction = session.beginTransaction();
-            EEntity e = new EEntity();
-            e.setXq(kh.substring(0, kh.indexOf('|')));
-            kh = kh.substring(kh.indexOf('|') + 1);
-            e.setKh(kh.substring(0, kh.indexOf('|')));
-            kh = kh.substring(kh.indexOf('|') + 1);
-            e.setXh(kh.substring(0, kh.indexOf('|')));
-            kh = kh.substring(kh.indexOf('|') + 1);
-            e.setGh(kh);
-            e.setPscj(null);
-            e.setKscj(null);
-            e.setZpcj(null);
-            session.save(e);
+            OEntity o = new OEntity();
+            o.setSksj(sksj);
+            o.setGh(gh);
+            o.setKh(kh);
+            o.setXq(xq);
+            session.save(o);
             transaction.commit();
             return "success";
         } catch (Exception e) {
@@ -55,5 +49,29 @@ public class SelectCourse extends ActionSupport {
 
     public void setKh(String kh) {
         this.kh = kh;
+    }
+
+    public String getSksj() {
+        return sksj;
+    }
+
+    public void setSksj(String sksj) {
+        this.sksj = sksj;
+    }
+
+    public String getXq() {
+        return xq;
+    }
+
+    public void setXq(String xq) {
+        this.xq = xq;
+    }
+
+    public String getGh() {
+        return gh;
+    }
+
+    public void setGh(String gh) {
+        this.gh = gh;
     }
 }

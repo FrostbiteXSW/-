@@ -8,5 +8,7 @@ function quitCourse() {
     window.location.href="studentQuitCourse.jsp";
 }
 function exitSystem() {
+    localStorage.clear();
+    sessionStorage.clear();
     window.location.href="index.jsp";
 }

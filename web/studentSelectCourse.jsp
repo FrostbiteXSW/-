@@ -52,17 +52,12 @@
                     Session s = sessionFactory.openSession();
                     String username = (String)session.getAttribute("username");
                     Query query = s.createQuery(
-                            "select E.kh, C.km, E.xq, O.sksj, T.xm, T.gh, C.xf from EEntity as E, OEntity as O, CEntity as  C, TEntity as  T " +
-                                    "where E.kh not in" +
-                                    "(select E.kh from EEntity as E, OEntity as O, CEntity as C, TEntity as T " +
-                                    "where T.gh = E.gh and O.kh = E.kh " +
-                                    "and E.xh = '" + username + "' "+
-                                    "and O.gh = E.gh and O.xq = E.xq " +
-                                    "and C.kh = E.kh and E.zpcj is not null)" +
-                                    "and C.kh = E.kh and E.xq = O.xq " +
-                                    "and E.gh = O.gh and E.kh=O.kh " +
-                                    "and E.gh = T.gh " +
-                                    "order by E.kh");
+                            "select O.kh, C.km, O.xq, O.sksj, T.xm, T.gh, C.xf from OEntity as O, CEntity as C, TEntity as T " +
+                                    "where not (O.kh, O.xq) in " +
+                                    "(select E.kh, E.xq from EEntity as E " +
+                                    "where E.xh = '" + username + "') " +
+                                    "and C.kh = O.kh and T.gh = O.gh " +
+                                    "order by O.kh");
                     List list = query.list();
                     for (Object aList : list) {
                         Object[] tuple = (Object[]) aList;

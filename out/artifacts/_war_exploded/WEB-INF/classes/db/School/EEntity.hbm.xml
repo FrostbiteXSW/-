@@ -20,13 +20,13 @@
             <column name="gh" sql-type="char(4)"/>
         </property>
         <property name="pscj">
-            <column name="pscj" sql-type="int(3)" not-null="true"/>
+            <column name="pscj" sql-type="int(3)" not-null="false"/>
         </property>
         <property name="kscj">
-            <column name="kscj" sql-type="int(3)" not-null="true"/>
+            <column name="kscj" sql-type="int(3)" not-null="false"/>
         </property>
         <property name="zpcj">
-            <column name="zpcj" sql-type="int(3)" not-null="true"/>
+            <column name="zpcj" sql-type="int(3)" not-null="false"/>
         </property>
     </class>
 </hibernate-mapping>

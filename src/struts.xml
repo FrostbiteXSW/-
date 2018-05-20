@@ -28,5 +28,9 @@
             <result name="success">/studentSelectCourse.jsp?from=success</result>
             <result name="failed">/studentSelectCourse.jsp?from=failed</result>
         </action>
+        <action name="handleOpenCourse" class="OpenCourse">
+            <result name="success">/teacherOpenCourse.jsp?from=success</result>
+            <result name="failed">/teacherOpenCourse.jsp?from=failed</result>
+        </action>
     </package>
 </struts>
