@@ -35,7 +35,7 @@
         <div class="SplitLine"></div>
         <div class="RightDiv">
             <br><span class="RightSubtitleStyle">退课</span><br><br>
-            <form method="post" action=""> <!-- TODO:设置处理学生退课跳转界面 -->
+            <form method="post" action="handleQuitCourse.action"> <!-- TODO:设置处理学生退课跳转界面 -->
                 <table id="MainTable" class="MainTable" align="center" cellpadding="5">
                     <tbody>
                         <tr>
@@ -54,7 +54,8 @@
                             Query query = s.createQuery("select E.kh, C.km, O.sksj, T.xm, E.xq, C.xf from EEntity as E, OEntity as O, CEntity as C, TEntity as T " +
                                     "where T.gh = E.gh and O.kh = E.kh " +
                                     "and O.gh = E.gh and O.xq = E.xq " +
-                                    "and C.kh = E.kh and E.xh = '" + username +"' " +
+                                    "and C.kh = E.kh and not isnull(E.zpcj) " +
+                                    "and E.xh = '" + username +"' " +
                                     "order by E.kh");
                             List list = query.list();
                             for (Object aList : list) {
@@ -69,7 +70,7 @@
                                         "   <td class='InnerBlock'>" + sksj + "</td>\n" +
                                         "   <td class='InnerBlock'>" + xm + "</td>\n" +
                                         "   <td class='InnerBlock'>" + xf + "</td>\n" +
-                                        "   <td class='InnerBlock' style='text-align: center'><input type='checkbox' name='kh' value='" + kh + "|" + xm + "|" + xq + "|" + "'/></td>\n" +
+                                        "   <td class='InnerBlock' style='text-align: center'><input type='checkbox' name='kh' value='" + kh + "|" + xm + "|" + xq + "|" + session.getAttribute("username") + "'/></td>\n" +
                                         "</tr>\n");
                             }
                         %>
@@ -77,6 +78,13 @@
                 </table>
                 <input type="submit" value="确认"/>
                 <input type="reset" value="重置"/>
+                <%
+                    String name = request.getParameter("from");
+                    if (name != null && name.equals("failed"))
+                        out.print("<br><br><div style='text-align: center; font-weight: bolder'>退课失败！</div>");
+                    if (name != null && name.equals("success"))
+                        out.print("<br><br><div style='text-align: center; font-weight: bolder'>退课成功！</div>");
+                %>
             </form>
         </div>
     </div>

@@ -1,8 +1,5 @@
-import com.opensymphony.xwork2.ActionContext;
 import com.opensymphony.xwork2.ActionSupport;
 import db.School.EEntity;
-import db.School.SEntity;
-import db.School.TEntity;
 import org.hibernate.HibernateException;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
@@ -29,29 +26,31 @@ public class QuitCourse extends ActionSupport {
 
     @Override
     public String execute() throws Exception {
-        Session session = getSession();
-        for (String s : kh) {
-            Transaction transaction = session.beginTransaction();
-            EEntity e = new EEntity();
-            e.setKh(s.substring(0, s.indexOf('|')));
-            s = s.substring(s.indexOf('|') + 1);
-            for (Object aList : session.createQuery("select ")) {
-                Object[] tuple = (Object[]) aList;
-                String kh = (String) tuple[0], km = (String) tuple[1], sksj = (String) tuple[2], xm = (String) tuple[3], xq = (String) tuple[4];
-                int xf = (int) tuple[5];
-                out.print("\n" +
-                        "<tr>\n" +
-                        "   <td class='InnerBlock'>" + kh + "</td>\n" +
-                        "   <td class='InnerBlock'>" + km + "</td>\n" +
-                        "   <td class='InnerBlock'>" + xq + "</td>\n" +
-                        "   <td class='InnerBlock'>" + sksj + "</td>\n" +
-                        "   <td class='InnerBlock'>" + xm + "</td>\n" +
-                        "   <td class='InnerBlock'>" + xf + "</td>\n" +
-                        "   <td class='InnerBlock' style='text-align: center'><input type='checkbox' name='kh' value='" + kh + "|" + xm + "|" + xq + "|" + "'/></td>\n" +
-                        "</tr>\n");
+        try {
+            Session session = getSession();
+            for (String s : kh) {
+                Transaction transaction = session.beginTransaction();
+                EEntity e = new EEntity();
+                e.setKh(s.substring(0, s.indexOf('|')));
+                s = s.substring(s.indexOf('|') + 1);
+                for (Object obj : session.createQuery("select T.gh from TEntity as T where T.xm ='"+ s.substring(0, s.indexOf('|')) +"'").list()) {
+                    String str = (String) obj;
+                    e.setGh(str);
+                }
+                s = s.substring(s.indexOf('|') + 1);
+                e.setXq(s.substring(0, s.indexOf('|')));
+                s = s.substring(s.indexOf('|') + 1);
+                e.setXh(s);
+                session.delete(e);
+                transaction.commit();
             }
-            transaction.commit();
+            return "success";
+        } catch (Exception e) {
+            return "failed";
         }
-        return "failed";
+    }
+
+    public void setKh(String[] kh) {
+        this.kh = kh;
     }
 }
