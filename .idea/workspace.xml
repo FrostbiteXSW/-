@@ -6,33 +6,7 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b65b7af5-a045-4806-bcfc-142ddc64106e" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/OpenCourse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/_war_exploded/WEB-INF/classes/InputScore.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/_war_exploded/WEB-INF/classes/InputScore.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/_war_exploded/WEB-INF/classes/QuitCourse.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/_war_exploded/WEB-INF/classes/QuitCourse.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/_war_exploded/WEB-INF/classes/SystemManage.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/_war_exploded/WEB-INF/classes/SystemManage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/_war_exploded/WEB-INF/classes/db/School/EEntity.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/_war_exploded/WEB-INF/classes/db/School/EEntity.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/_war_exploded/WEB-INF/classes/db/School/EEntity.hbm.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/_war_exploded/WEB-INF/classes/db/School/EEntity.hbm.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/_war_exploded/WEB-INF/classes/struts.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/_war_exploded/WEB-INF/classes/struts.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/_war_exploded/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/_war_exploded/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/_war_exploded/studentSelectCourse.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/_war_exploded/studentSelectCourse.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/_war_exploded/systemManage.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/_war_exploded/systemManage.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/_war_exploded/teacherOpenCourse.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/_war_exploded/teacherOpenCourse.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/教学事务管理系统/InputScore.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/教学事务管理系统/InputScore.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/教学事务管理系统/QuitCourse.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/教学事务管理系统/QuitCourse.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/教学事务管理系统/SystemManage.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/教学事务管理系统/SystemManage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/教学事务管理系统/db/School/EEntity.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/教学事务管理系统/db/School/EEntity.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/教学事务管理系统/db/School/EEntity.hbm.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/教学事务管理系统/db/School/EEntity.hbm.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/教学事务管理系统/struts.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/教学事务管理系统/struts.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SelectCourse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SelectCourse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/struts.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/struts.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/js/student.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/js/student.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/js/system.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/js/system.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/js/teacher.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/js/teacher.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/studentSelectCourse.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/studentSelectCourse.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/teacherOpenCourse.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/teacherOpenCourse.jsp" afterDir="false" />
-    </list>
+    <list default="true" id="b65b7af5-a045-4806-bcfc-142ddc64106e" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -79,7 +53,7 @@
     <select />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -225,6 +199,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -236,9 +213,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
-      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -431,6 +405,7 @@
       <workItem from="1526786347331" duration="20745000" />
       <workItem from="1526810860442" duration="4078000" />
       <workItem from="1526815455655" duration="9669000" />
+      <workItem from="1526825501959" duration="21000" />
     </task>
     <task id="LOCAL-00001" summary="原始内容">
       <created>1526122042009</created>
@@ -513,7 +488,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="47924000" />
+    <option name="totallyTimeSpent" value="47945000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -540,7 +515,6 @@
       <window_info id="UI Designer" order="2" />
       <window_info anchor="bottom" id="Debug" order="9" weight="0.3991276" />
       <window_info anchor="bottom" id="TODO" order="12" weight="0.3293348" />
-      <window_info anchor="bottom" id="Messages" order="13" sideWeight="0.49946696" weight="0.32824427" />
       <window_info anchor="right" id="Palette&#9;" order="4" />
       <window_info id="Image Layers" order="1" />
       <window_info anchor="bottom" id="Java Enterprise" order="14" weight="0.3293348" />
@@ -548,11 +522,12 @@
       <window_info anchor="bottom" id="Version Control" order="1" weight="0.3278867" />
       <window_info anchor="bottom" id="Run" order="8" sideWeight="0.4989339" weight="0.27699018" />
       <window_info anchor="bottom" id="Terminal" order="5" weight="0.3293348" />
-      <window_info id="Persistence" order="8" sideWeight="0.35441658" side_tool="true" visible="true" weight="0.1652452" />
-      <window_info active="true" content_ui="combo" id="Project" order="5" sideWeight="0.64558345" visible="true" weight="0.1652452" />
+      <window_info id="Persistence" order="8" sideWeight="0.35550708" side_tool="true" visible="true" weight="0.16684435" />
+      <window_info active="true" content_ui="combo" id="Project" order="5" sideWeight="0.6444929" visible="true" weight="0.16684435" />
       <window_info id="Web" order="9" sideWeight="0.50268334" side_tool="true" weight="0.20242915" />
       <window_info anchor="right" id="Theme Preview" order="2" />
       <window_info id="Favorites" order="4" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="13" sideWeight="0.49946696" weight="0.32824427" />
       <window_info anchor="bottom" id="Inspection" order="11" weight="0.4" />
       <window_info anchor="right" id="Commander" order="6" weight="0.4" />
       <window_info anchor="bottom" id="Database Console" order="0" weight="0.3293348" />
@@ -735,13 +710,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/handleInputScore.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="29" selection-start-column="29" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/handleInputScore.java" />
     <entry file="das://42d396bf-74e3-40f2-88ff-6b26fdd51cba/schema/School/table/D">
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
