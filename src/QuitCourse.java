@@ -41,6 +41,7 @@ public class QuitCourse extends ActionSupport {
             }
             return "success";
         } catch (Exception e) {
+            e.printStackTrace();
             return "failed";
         }
     }

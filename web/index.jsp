@@ -7,7 +7,7 @@
     <script type="text/javascript" src="js/index.js"></script>
 </head>
 <body onload="getPwdFocus()" style="background-color: #a9c4d6">
-    <form name="LoginForm" method="post" action="handleLogin.action"> <!-- TODO:设置处理用户名密码跳转界面 -->
+    <form name="LoginForm" method="post" action="handleLogin.action">
         <p>&nbsp;</p>
         <table style="border: outset 3px;" width="300" cellspacing="0" cellpadding="1" border="0" align="center">
             <tbody>

@@ -51,8 +51,8 @@
                     String username = (String)session.getAttribute("username");
                     Query query = s.createQuery("select E.kh, C.km, S.xh, S.xm, E.gh, E.xq, E.pscj, E.kscj, E.zpcj  from EEntity as E, OEntity as O, CEntity as C, TEntity as T, SEntity as S " +
                             "where S.xh = E.xh and E.kh = C.kh " +
-                            "and E.kh = O.kh and E.gh = O.gh and E.xq= O.xq " +
-                            "and E.gh = '" + username +"' " +
+                            "and E.kh = O.kh and E.gh = O.gh and E.xq = O.xq " +
+                            "and E.gh = '" + username + "' and T.gh = E.gh " +
                             "order by E.kh");
                     List list = query.list();
                     for (Object aList : list) {

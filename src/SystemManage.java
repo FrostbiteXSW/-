@@ -66,13 +66,9 @@ public class SystemManage extends ActionSupport {
                         e.setXq(content[i + 1]);
                         e.setKh(content[i + 2]);
                         e.setGh(content[i + 3]);
-                        if (content[i + 4].equals("") || content[i + 5].equals("") || content[i + 6].equals("")) {
-                            transaction.commit();
-                            continue;
-                        }
-                        e.setPscj(Integer.parseInt(content[i + 4]));
-                        e.setKscj(Integer.parseInt(content[i + 5]));
-                        e.setZpcj(Integer.parseInt(content[i + 6]));
+                        e.setPscj(content[i + 4].equals("") ? null : Integer.parseInt(content[i + 4]));
+                        e.setKscj(content[i + 5].equals("") ? null : Integer.parseInt(content[i + 5]));
+                        e.setZpcj(content[i + 6].equals("") ? null : Integer.parseInt(content[i + 6]));
                         session.update(e);
                         transaction.commit();
                     }
@@ -124,6 +120,7 @@ public class SystemManage extends ActionSupport {
             }
             return "success";
         } catch (Exception e) {
+            e.printStackTrace();
             return "failed";
         }
     }

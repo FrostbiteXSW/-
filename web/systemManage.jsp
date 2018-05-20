@@ -52,7 +52,7 @@
                             "         <td class='InnerTitle'>学时</td>\n" +
                             "         <td class='InnerTitle'>院系号</td>\n" +
                             "      </tr>");
-                    for (Object obj : s.createQuery("from CEntity").list()) {
+                    for (Object obj : s.createQuery("from CEntity order by kh").list()) {
                         CEntity c = (CEntity) obj;
                         out.print("\n" +
                                 "      <tr>\n" +
@@ -79,7 +79,7 @@
                             "         <td class='InnerTitle'>地址</td>\n" +
                             "         <td class='InnerTitle'>联系电话</td>\n" +
                             "      </tr>");
-                    for (Object obj : s.createQuery("from DEntity").list()) {
+                    for (Object obj : s.createQuery("from DEntity order by yxh").list()) {
                         DEntity d = (DEntity) obj;
                         out.print("\n" +
                                 "      <tr>\n" +
@@ -108,7 +108,7 @@
                             "         <td class='InnerTitle'>考试成绩</td>\n" +
                             "         <td class='InnerTitle'>总评成绩</td>\n" +
                             "      </tr>");
-                    for (Object obj : s.createQuery("from EEntity where zpcj is not null").list()) {
+                    for (Object obj : s.createQuery("from EEntity where zpcj is not null order by xh").list()) {
                         EEntity e = (EEntity) obj;
                         out.print("\n" +
                                 "      <tr>\n" +
@@ -121,7 +121,7 @@
                                 "         <td class='InnerBlock'><input type='text' name='content' value='"+ e.getZpcj() +"'></td>\n" +
                                 "      </tr>\n");
                     }
-                    for (Object obj : s.createQuery("select E.xh, E.xq, E.kh, E.gh from EEntity as E where zpcj is null").list()) {
+                    for (Object obj : s.createQuery("select E.xh, E.xq, E.kh, E.gh from EEntity as E where zpcj is null order by xh").list()) {
                         Object[] e = (Object[]) obj;
                         out.print("\n" +
                                 "      <tr>\n" +
@@ -150,7 +150,7 @@
                             "         <td class='InnerTitle'>工号</td>\n" +
                             "         <td class='InnerTitle'>上课时间</td>\n" +
                             "      </tr>");
-                    for (Object obj : s.createQuery("from OEntity").list()) {
+                    for (Object obj : s.createQuery("from OEntity order by xq").list()) {
                         OEntity o = (OEntity) obj;
                         out.print("\n" +
                                 "      <tr>\n" +
@@ -179,7 +179,7 @@
                             "         <td class='InnerTitle'>手机号码</td>\n" +
                             "         <td class='InnerTitle'>院系号</td>\n" +
                             "      </tr>");
-                    for (Object obj : s.createQuery("from SEntity").list()) {
+                    for (Object obj : s.createQuery("from SEntity order by xh").list()) {
                         SEntity ss = (SEntity) obj;
                         out.print("\n" +
                                 "      <tr>\n" +
@@ -211,7 +211,7 @@
                             "         <td class='InnerTitle'>基本工资</td>\n" +
                             "         <td class='InnerTitle'>院系号</td>\n" +
                             "      </tr>");
-                    for (Object obj : s.createQuery("from TEntity").list()) {
+                    for (Object obj : s.createQuery("from TEntity order by gh").list()) {
                         TEntity t = (TEntity) obj;
                         out.print("\n" +
                                 "      <tr>\n" +

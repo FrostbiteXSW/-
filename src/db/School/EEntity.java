@@ -12,9 +12,9 @@ public class EEntity implements Serializable {
     private String xq;
     private String kh;
     private String gh;
-    private int pscj;
-    private int kscj;
-    private int zpcj;
+    private Integer pscj;
+    private Integer kscj;
+    private Integer zpcj;
 
     @Id
     @Column(name = "xh", nullable = false, length = 4)
@@ -58,31 +58,31 @@ public class EEntity implements Serializable {
 
     @Basic
     @Column(name = "pscj")
-    public int getPscj() {
+    public Integer getPscj() {
         return pscj;
     }
 
-    public void setPscj(int pscj) {
+    public void setPscj(Integer pscj) {
         this.pscj = pscj;
     }
 
     @Basic
     @Column(name = "kscj")
-    public int getKscj() {
+    public Integer getKscj() {
         return kscj;
     }
 
-    public void setKscj(int kscj) {
+    public void setKscj(Integer kscj) {
         this.kscj = kscj;
     }
 
     @Basic
     @Column(name = "zpcj")
-    public int getZpcj() {
+    public Integer getZpcj() {
         return zpcj;
     }
 
-    public void setZpcj(int zpcj) {
+    public void setZpcj(Integer zpcj) {
         this.zpcj = zpcj;
     }
 
