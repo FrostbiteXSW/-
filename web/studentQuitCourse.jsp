@@ -70,7 +70,7 @@
                                         "   <td class='InnerBlock'>" + sksj + "</td>\n" +
                                         "   <td class='InnerBlock'>" + xm + "</td>\n" +
                                         "   <td class='InnerBlock'>" + xf + "</td>\n" +
-                                        "   <td class='InnerBlock' style='text-align: center'><input type='checkbox' name='kh' value='" + kh + "|" + xm + "|" + xq + "|" + session.getAttribute("username") + "'/></td>\n" +
+                                        "   <td class='InnerBlock' style='text-align: center'><input type='checkbox' name='kh' value='" + kh + "|" + xq + "|" + session.getAttribute("username") + "'/></td>\n" +
                                         "</tr>\n");
                             }
                         %>
