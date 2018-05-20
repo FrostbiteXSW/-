@@ -12,6 +12,9 @@
             <result name="system">/systemManage.jsp</result>
             <result name="failed">/index.jsp?from=failed</result>
         </action>
-
+        <action name="handleQuitCourse" class="QuitCourse">
+            <result name="success">/studentQuitCourse.jsp?from=success</result>
+            <result name="failed">/studentQuitCourse.jsp?from=failed</result>
+        </action>
     </package>
 </struts>

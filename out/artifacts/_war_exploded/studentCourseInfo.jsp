@@ -40,15 +40,19 @@
                     <tr>
                         <td class="InnerTitle">课号</td>
                         <td class="InnerTitle">课名</td>
+                        <td class="InnerTitle">学期</td>
                         <td class="InnerTitle">上课时间</td>
                         <td class="InnerTitle">任课教师</td>
                         <td class="InnerTitle">学分</td>
+                        <td class="InnerTitle">平时成绩</td>
+                        <td class="InnerTitle">考试成绩</td>
+                        <td class="InnerTitle">总评成绩</td>
                     </tr>
                     <%
                         SessionFactory sessionFactory = new Configuration(). configure("hibernate.cfg.xml"). buildSessionFactory();
                         Session s = sessionFactory.openSession();
                         String username = (String)session.getAttribute("username");
-                        Query query = s.createQuery("select E.kh, C.km, O.sksj, T.xm, C.xf from EEntity as E, OEntity as O, CEntity as C, TEntity as T " +
+                        Query query = s.createQuery("select E.kh, C.km, O.sksj, T.xm, E.xq, C.xf, E.pscj, E.kscj, E.zpcj from EEntity as E, OEntity as O, CEntity as C, TEntity as T " +
                                 "where T.gh = E.gh and O.kh = E.kh " +
                                 "and O.gh = E.gh and O.xq = E.xq " +
                                 "and C.kh = E.kh and E.xh = '" + username +"' " +
@@ -56,15 +60,19 @@
                         List list = query.list();
                         for (Object aList : list) {
                             Object[] tuple = (Object[]) aList;
-                            String kh = (String) tuple[0], km = (String) tuple[1], sksj = (String) tuple[2], xm = (String) tuple[3];
-                            int xf = (int) tuple[4];
+                            String kh = (String) tuple[0], km = (String) tuple[1], sksj = (String) tuple[2], xm = (String) tuple[3], xq = (String) tuple[4];
+                            int xf = (int) tuple[5], pscj = tuple[6] == null ?  -1 :(int) tuple[6], kscj = tuple[7] == null ?  -1 :(int) tuple[7], zpcj = tuple[8] == null ?  -1 :(int) tuple[8];
                             out.print("\n" +
                                     "<tr>\n" +
                                     "   <td class='InnerBlock'>" + kh + "</td>\n" +
                                     "   <td class='InnerBlock'>" + km + "</td>\n" +
+                                    "   <td class='InnerBlock'>" + xq + "</td>\n" +
                                     "   <td class='InnerBlock'>" + sksj + "</td>\n" +
                                     "   <td class='InnerBlock'>" + xm + "</td>\n" +
                                     "   <td class='InnerBlock'>" + xf + "</td>\n" +
+                                    "   <td class='InnerBlock'>" + (pscj == -1 ? "无" : pscj) + "</td>\n" +
+                                    "   <td class='InnerBlock'>" + (kscj == -1 ? "无" : kscj) + "</td>\n" +
+                                    "   <td class='InnerBlock'>" + (zpcj == -1 ? "无" : zpcj) + "</td>\n" +
                                     "</tr>\n");
                         }
                     %>
