@@ -12,5 +12,6 @@
             <result name="system">/systemManage.jsp</result>
             <result name="failed">/index.jsp?from=failed</result>
         </action>
+
     </package>
 </struts>

@@ -40,7 +40,6 @@
                     <tr>
                         <td class="InnerTitle">课号</td>
                         <td class="InnerTitle">课名</td>
-                        <td class="InnerTitle">学期</td>
                         <td class="InnerTitle">上课时间</td>
                         <td class="InnerTitle">任课教师</td>
                         <td class="InnerTitle">学分</td>
@@ -49,7 +48,7 @@
                         SessionFactory sessionFactory = new Configuration(). configure("hibernate.cfg.xml"). buildSessionFactory();
                         Session s = sessionFactory.openSession();
                         String username = (String)session.getAttribute("username");
-                        Query query = s.createQuery("select E.kh, C.km, O.sksj, T.xm, E.xq, C.xf from EEntity as E, OEntity as O, CEntity as C, TEntity as T " +
+                        Query query = s.createQuery("select E.kh, C.km, O.sksj, T.xm, C.xf from EEntity as E, OEntity as O, CEntity as C, TEntity as T " +
                                 "where T.gh = E.gh and O.kh = E.kh " +
                                 "and O.gh = E.gh and O.xq = E.xq " +
                                 "and C.kh = E.kh and E.xh = '" + username +"' " +
@@ -57,13 +56,12 @@
                         List list = query.list();
                         for (Object aList : list) {
                             Object[] tuple = (Object[]) aList;
-                            String kh = (String) tuple[0], km = (String) tuple[1], sksj = (String) tuple[2], xm = (String) tuple[3], xq = (String) tuple[4];
-                            int xf = (int) tuple[5];
+                            String kh = (String) tuple[0], km = (String) tuple[1], sksj = (String) tuple[2], xm = (String) tuple[3];
+                            int xf = (int) tuple[4];
                             out.print("\n" +
                                     "<tr>\n" +
                                     "   <td class='InnerBlock'>" + kh + "</td>\n" +
                                     "   <td class='InnerBlock'>" + km + "</td>\n" +
-                                    "   <td class='InnerBlock'>" + xq + "</td>\n" +
                                     "   <td class='InnerBlock'>" + sksj + "</td>\n" +
                                     "   <td class='InnerBlock'>" + xm + "</td>\n" +
                                     "   <td class='InnerBlock'>" + xf + "</td>\n" +
