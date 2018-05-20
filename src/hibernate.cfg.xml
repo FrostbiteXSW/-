@@ -5,23 +5,20 @@
 <hibernate-configuration>
   <session-factory>
     <property name="connection.url">jdbc:mysql://176.122.147.174:3306/School?serverTimezone=UTC</property>
-    <property name="connection.driver_class">com.mysql.jdbc.Driver</property>
-    <!-- <property name="connection.username"/> -->
-    <!-- <property name="connection.password"/> -->
-    <mapping resource="com/db/School/CEntity.hbm.xml"/>
-    <mapping class="com.db.School.CEntity"/>
-    <mapping resource="com/db/School/DEntity.hbm.xml"/>
-    <mapping class="com.db.School.DEntity"/>
-    <mapping resource="com/db/School/EEntity.hbm.xml"/>
-    <mapping class="com.db.School.EEntity"/>
-    <mapping resource="com/db/School/OEntity.hbm.xml"/>
-    <mapping class="com.db.School.OEntity"/>
-    <mapping resource="com/db/School/SEntity.hbm.xml"/>
-    <mapping class="com.db.School.SEntity"/>
-    <mapping resource="com/db/School/TEntity.hbm.xml"/>
-    <mapping class="com.db.School.TEntity"/>
-
-    <!-- DB schema will be updated if needed -->
-    <!-- <property name="hbm2ddl.auto">update</property> -->
+    <property name="connection.driver_class">com.mysql.cj.jdbc.Driver</property>
+    <property name="connection.username">dbmanager</property>
+    <property name="connection.password">Dbs@bwh176</property>
+    <mapping resource="db/School/CEntity.hbm.xml"/>
+    <mapping class="db.School.CEntity"/>
+    <mapping resource="db/School/DEntity.hbm.xml"/>
+    <mapping class="db.School.DEntity"/>
+    <mapping resource="db/School/EEntity.hbm.xml"/>
+    <mapping class="db.School.EEntity"/>
+    <mapping resource="db/School/OEntity.hbm.xml"/>
+    <mapping class="db.School.OEntity"/>
+    <mapping resource="db/School/SEntity.hbm.xml"/>
+    <mapping class="db.School.SEntity"/>
+    <mapping resource="db/School/TEntity.hbm.xml"/>
+    <mapping class="db.School.TEntity"/>
   </session-factory>
 </hibernate-configuration>

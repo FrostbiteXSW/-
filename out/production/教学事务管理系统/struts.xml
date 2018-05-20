@@ -5,4 +5,12 @@
         "http://struts.apache.org/dtds/struts-2.5.dtd">
 
 <struts>
+    <package name="login" extends="struts-default">
+        <action name="handleLogin" class="Login">
+            <result name="student">/studentCourseInfo.jsp</result>
+            <result name="teacher">/teacherInputScore.jsp</result>
+            <result name="system">/systemManage.jsp</result>
+            <result name="failed">/index.jsp?from=failed</result>
+        </action>
+    </package>
 </struts>
