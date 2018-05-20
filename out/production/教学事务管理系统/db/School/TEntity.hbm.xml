@@ -23,5 +23,8 @@
         <property name="jbgz">
             <column name="jbgz" sql-type="decimal(6,2)" precision="6" scale="2"/>
         </property>
+        <property name="yxh">
+            <column name="yxh" sql-type="char(2)"/>
+        </property>
     </class>
 </hibernate-mapping>

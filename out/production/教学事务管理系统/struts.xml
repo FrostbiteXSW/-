@@ -16,5 +16,9 @@
             <result name="success">/studentQuitCourse.jsp?from=success</result>
             <result name="failed">/studentQuitCourse.jsp?from=failed</result>
         </action>
+        <action name="handleSystem" class="SystemManage">
+            <result name="success">/systemManage.jsp?from=success</result>
+            <result name="failed">/systemManage.jsp?from=failed</result>
+        </action>
     </package>
 </struts>

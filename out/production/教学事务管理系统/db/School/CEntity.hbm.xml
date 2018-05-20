@@ -17,5 +17,8 @@
         <property name="xs">
             <column name="xs" sql-type="int(3)"/>
         </property>
+        <property name="yxh">
+            <column name="yxh" sql-type="char(2)"/>
+        </property>
     </class>
 </hibernate-mapping>

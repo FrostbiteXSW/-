@@ -54,7 +54,7 @@
                             Query query = s.createQuery("select E.kh, C.km, O.sksj, T.xm, E.xq, C.xf from EEntity as E, OEntity as O, CEntity as C, TEntity as T " +
                                     "where T.gh = E.gh and O.kh = E.kh " +
                                     "and O.gh = E.gh and O.xq = E.xq " +
-                                    "and C.kh = E.kh and E.zpcj is not null " +
+                                    "and C.kh = E.kh and E.zpcj is null " +
                                     "and E.xh = '" + username +"' " +
                                     "order by E.kh");
                             List list = query.list();
@@ -70,7 +70,7 @@
                                         "   <td class='InnerBlock'>" + sksj + "</td>\n" +
                                         "   <td class='InnerBlock'>" + xm + "</td>\n" +
                                         "   <td class='InnerBlock'>" + xf + "</td>\n" +
-                                        "   <td class='InnerBlock' style='text-align: center'><input type='checkbox' name='kh' value='" + kh + "|" + xm + "|" + xq + "|" + session.getAttribute("username") + "'/></td>\n" +
+                                        "   <td class='InnerBlock' style='text-align: center'><input type='checkbox' name='kh' value='" + kh + "|" + xq + "|" + session.getAttribute("username") + "'/></td>\n" +
                                         "</tr>\n");
                             }
                         %>
