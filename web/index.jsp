@@ -3,8 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <title>登录</title>
+    <script>
+        function getPwdFocus() {
+            document.LoginForm.username.focus();
+        }
+    </script>
     <link href="css/index.css" rel="stylesheet" type="text/css">
-    <script type="text/javascript" src="js/index.js"></script>
 </head>
 <body onload="getPwdFocus()" style="background-color: #a9c4d6">
     <form name="LoginForm" method="post" action="handleLogin.action">
